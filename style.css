@@ -170,3 +170,10 @@ body {
     color: white;
     font-size: 20px;
 }
+.text{
+    display: block;
+
+}
+.text h1{
+    color: red;
+}
