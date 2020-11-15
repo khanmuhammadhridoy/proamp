@@ -6,7 +6,6 @@ body {
 body {
     margin: 0;
     padding: 0;
-    background: ;
 }
 
 .header {
@@ -85,26 +84,89 @@ body {
     background: black;
     text-align: center;
 }
-.right h1{
-    color:red;
+
+.right h1 {
+    color: red;
     font-weight: bold;
     font-size: 70px;
 }
-.right p{
+
+.right p {
     color: white;
     font-size: 40px;
 }
-button{
+
+.right button {
     background: red;
-    color:white;
+    color: white;
     text-transform: uppercase;
     font-size: 50px;
+    border-radius: 10px;
 }
-.main{
+
+.sec1 {
     text-align: center;
 }
-.services{
-    font-size: 100px;
-    color:red;
 
+.services {
+    font-size: 100px;
+    color: red;
+}
+
+.quote {
+    font-size: 30px;
+}
+
+.sec1 button {
+    background: red;
+    color: white;
+    padding: 20px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.middle {
+    width: 80%;
+    height: 50%;
+    margin: auto;
+    display: inline-block;
+}
+
+.ltimg {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.lfimg img {
+    width: 40%;
+    opacity: .5;
+}
+
+.lftxt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 50px;
+}
+
+.r8img {
+    width: 40%;
+    float: left;
+    position: relative;
+}
+
+.r8img img {
+    width: 40%;
+    opacity: .5;
+
+}
+
+.r8txt {
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    font-size: 20px;
 }
